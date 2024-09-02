@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color background_color
+color black
+color importantText
+color white
+drawable background_button
+drawable close
+drawable filtro
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable notificacao
+drawable perfil
+id ID1_BtnAplicarFiltros_Button
+id ID_Filter_ClosePage
+id bottomNavigationView
+id main
+id navigation_alert
+id navigation_filter
+id navigation_profile
+id textView
+id textView2
+id textView3
+layout activity_filter
+layout activity_main
+layout activity_notification
+layout activity_profile
+menu bottom_nav_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string aplicar_filtros
+string app_name
+string filtrar
+style Base.Theme.Appvagas
+style Theme.Appvagas
+xml backup_rules
+xml data_extraction_rules

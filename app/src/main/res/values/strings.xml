@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">app-vagas</string>
+    <string name="aplicar_filtros">APLICAR FILTROS</string>
+    <string name="filtrar">Filtrar</string>
+</resources>
