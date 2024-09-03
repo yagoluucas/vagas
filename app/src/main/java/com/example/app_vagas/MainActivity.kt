@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -44,6 +45,36 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
+        // usando a lista de vagas
+        val recyclerView: RecyclerView = findViewById(R.id.ID_ListaVagas)
+        recyclerView.adapter = ListaVagaAdapter(this, listOf(
+            Vaga(
+                id = 1,
+                titulo = "Vaga de Analista de Sistemas",
+                descricao = "Descrição da vaga de analista de sistemas",
+                tipoVaga = "Presencial",
+                horarioTrabalho = "Integral",
+                modeloDeContratacao = "CLT"
+            ),
+            Vaga(
+                id = 2,
+                titulo = "Vaga de Analista de Sistemas",
+                descricao = "Descrição da vaga de analista de sistemas",
+                tipoVaga = "Presencial",
+                horarioTrabalho = "Integral",
+                modeloDeContratacao = "CLT"
+            ),
+            Vaga(
+                id = 3,
+                titulo = "Vaga de Analista de Sistemas",
+                descricao = "Descrição da vaga de analista de sistemas",
+                tipoVaga = "Presencial",
+                horarioTrabalho = "Integral",
+                modeloDeContratacao = "CLT"
+            )
+        ))
+
 
     }
 }
