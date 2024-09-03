@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array brew_array
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2104,6 +2105,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color vaga_background
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -3109,7 +3111,20 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id ID1_BtnAplicarFiltros_Button
+id ID1_Notification_title
 id ID_Filter_ClosePage
+id ID_ListaVagas
+id ID_Notification_AtiveNotification
+id ID_Notification_Daily
+id ID_Notification_DesativeNotification
+id ID_Notification_Monthly
+id ID_Notification_RadioGroup
+id ID_Notification_RadioGroupFrequency
+id ID_Notification_SavePreferences
+id ID_Notification_TextChoice
+id ID_Notification_TextFrequency
+id ID_Notification_Weekly
+id ID_Notification_subtitle
 id META
 id NO_DEBUG
 id SHIFT
@@ -3272,6 +3287,7 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id dynamic_spinner
 id easeIn
 id easeInOut
 id easeOut
@@ -3533,6 +3549,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id static_spinner
 id stop
 id stretch
 id submenuarrow
@@ -3562,6 +3579,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3731,6 +3749,7 @@ layout activity_filter
 layout activity_main
 layout activity_notification
 layout activity_profile
+layout bottom_navigation_bar
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3810,6 +3829,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout vaga_item
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

@@ -5,12 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/background_color">
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="82dp"
         android:background="#E0F1FB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,5 +18,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"/>
+
+<!-- o 0dp indica que ele pode crescer ou aumentar de tamanho de acordo com o conteúdo -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ID_ListaVagas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096"
+        tools:listitem="@layout/vaga_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

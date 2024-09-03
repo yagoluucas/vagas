@@ -3,24 +3,24 @@
 3    package="com.example.app_vagas.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:5:5-74
+5-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:5:15-41
+6-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:5:42-71
+7-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:11:5-15:71
+9-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:11:5-15:71
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:11:22-76
+10-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:14:22-52
+11-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:13:22-53
+12-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:13:22-53
 13        android:label="Tests for com.example.app_vagas"
-13-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:15:22-69
+13-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:15:22-69
 14        android:targetPackage="com.example.app_vagas" />
-14-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:12:22-67
+14-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:12:22-67
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.6.1] C:\Users\Yago\.gradle\caches\transforms-4\e55ed4e6aa3373ab84b8d900a408c554\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:7:5-9:19
+24-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:8:9-60
-27-->C:\Users\Yago\programacao\2_ano\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest823780741175847449.xml:8:23-57
+27-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:8:9-60
+27-->C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2834885507791267162.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.6.1] C:\Users\Yago\.gradle\caches\transforms-4\e55ed4e6aa3373ab84b8d900a408c554\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20

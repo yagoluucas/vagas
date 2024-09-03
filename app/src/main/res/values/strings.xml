@@ -2,4 +2,11 @@
     <string name="app_name">app-vagas</string>
     <string name="aplicar_filtros">APLICAR FILTROS</string>
     <string name="filtrar">Filtrar</string>
+    <string-array name="brew_array">
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Mocha</item>
+        <item>Caffè Americano</item>
+        <item>Cafe Zorro</item>
+    </string-array>
 </resources>
