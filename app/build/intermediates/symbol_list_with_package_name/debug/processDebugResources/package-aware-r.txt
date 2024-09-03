@@ -2992,6 +2992,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_button
+drawable bag
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3287,7 +3288,6 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
-id dynamic_spinner
 id easeIn
 id easeInOut
 id easeOut
@@ -3394,6 +3394,7 @@ id matrix
 id message
 id middle
 id mini
+id modeloDaVaga
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3426,6 +3427,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_alert
+id navigation_bag
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3550,7 +3552,6 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
-id static_spinner
 id stop
 id stretch
 id submenuarrow
@@ -3579,7 +3580,6 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
 id textView4
 id text_input_end_icon
 id text_input_error_icon
@@ -3591,9 +3591,11 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id tipoDaVaga
 id title
 id titleDividerNoCustom
 id title_template
+id tituloVaga
 id toggle
 id top
 id topPanel

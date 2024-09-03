@@ -9,7 +9,7 @@
     android:padding="10dp">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tituloVaga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Título da vaga"
@@ -24,17 +24,45 @@
         android:textColor="@color/white"/>
 
     <TextView
+        android:id="@+id/modeloDaVaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Modelo de contratação: PJ"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloVaga"
+        app:layout_goneMarginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tipoDaVaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tipo da vaga: Remoto"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/modeloDaVaga"
+        app:layout_goneMarginTop="4dp" />
+
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Uma descrição muito legal a vaga"
+        android:layout_marginTop="8dp"
+        android:text="Horário de trabalho: Comercial"
+        android:textColor="@color/white"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.023"
-        android:textColor="@color/white"/>
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipoDaVaga"
+        app:layout_goneMarginTop="4dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
