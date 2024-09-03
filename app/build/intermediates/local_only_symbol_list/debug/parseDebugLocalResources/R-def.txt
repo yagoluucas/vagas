@@ -30,6 +30,7 @@ id ID_Notification_Weekly
 id ID_Notification_subtitle
 id bottomNavigationView
 id dynamic_spinner
+id fragment_container
 id main
 id navigation_alert
 id navigation_filter
