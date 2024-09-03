@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.app_vagas"
-        minSdk = 24
+        minSdk = 22
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

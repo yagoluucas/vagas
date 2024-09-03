@@ -1,50 +1,37 @@
 package com.example.app_vagas
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
+import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-        // Configuração do navegação inferior do aplicativo
-        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-        bottomNavigationView.inflateMenu(R.menu.bottom_nav_menu)
-        // Configuração do listener para o clique nos itens do menu
-        bottomNavigationView.setOnItemSelectedListener { item ->
-            when(item.itemId){
-                R.id.navigation_filter -> {
-                    setContentView(R.layout.activity_filter)
-                    val btnClosePage: ImageView = findViewById<ImageView>(R.id.ID_Filter_ClosePage)
 
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigationView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.navigation_filter -> {
+                    loadFragment(FilterFragment())
                     true
                 }
                 R.id.navigation_alert -> {
-                    setContentView(R.layout.activity_notification)
+                    loadFragment(NotificationFragment())
                     true
                 }
                 R.id.navigation_profile -> {
-                    setContentView(R.layout.activity_profile)
+                    loadFragment(ProfileFragment())
                     true
                 }
                 else -> false
             }
         }
+
 
         // usando a lista de vagas
         val recyclerView: RecyclerView = findViewById(R.id.ID_ListaVagas)
@@ -76,5 +63,15 @@ class MainActivity : AppCompatActivity() {
         ))
 
 
+        // Load the default fragment
+        if (savedInstanceState == null) {
+            bottomNavigationView.selectedItemId = R.id.navigation_filter
+        }
+    }
+
+    private fun loadFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .commit()
     }
 }
