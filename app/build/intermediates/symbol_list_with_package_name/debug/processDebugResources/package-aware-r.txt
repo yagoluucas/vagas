@@ -3488,6 +3488,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewVagas
 id report_drawn
 id reverseSawtooth
 id right
@@ -3749,6 +3750,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_filter
+layout activity_lista_vaga
 layout activity_main
 layout activity_notification
 layout activity_profile

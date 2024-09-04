@@ -37,12 +37,14 @@ id navigation_alert
 id navigation_bag
 id navigation_filter
 id navigation_profile
+id recyclerViewVagas
 id textView
 id textView2
 id textView4
 id tipoDaVaga
 id tituloVaga
 layout activity_filter
+layout activity_lista_vaga
 layout activity_main
 layout activity_notification
 layout activity_profile

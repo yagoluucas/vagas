@@ -6,6 +6,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.fragment.app.Fragment
+import com.example.app_vagas.fragments.ListaVagaFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
+                R.id.navigation_bag -> {
+                    loadFragment(ListaVagaFragment())
+                    true
+                }
                 R.id.navigation_filter -> {
                     loadFragment(FilterFragment())
                     true
