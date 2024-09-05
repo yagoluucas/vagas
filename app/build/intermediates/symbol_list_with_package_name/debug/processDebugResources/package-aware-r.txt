@@ -3122,6 +3122,7 @@ id ID_Notification_Monthly
 id ID_Notification_RadioGroup
 id ID_Notification_RadioGroupFrequency
 id ID_Notification_SavePreferences
+id ID_Notification_SrollView
 id ID_Notification_TextChoice
 id ID_Notification_TextFrequency
 id ID_Notification_Weekly
@@ -3191,6 +3192,7 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id activity_notification
 id add
 id alertTitle
 id aligned
@@ -3579,7 +3581,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textView4
 id text_input_end_icon
 id text_input_error_icon

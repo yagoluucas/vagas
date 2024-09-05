@@ -10,6 +10,7 @@
         android:id="@+id/ID1_BtnAplicarFiltros_Button"
         android:layout_width="match_parent"
         android:layout_height="43dp"
+        android:layout_margin="10dp"
         android:background="@drawable/background_button"
         android:padding="12dp"
         android:text="@string/aplicar_filtros"
@@ -18,10 +19,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896"
-        android:layout_margin="10dp"/>
+        app:layout_constraintVertical_bias="0.957" />
 
     <TextView
         android:id="@+id/textView"
@@ -51,10 +52,10 @@
         app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints" />
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

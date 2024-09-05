@@ -25,10 +25,12 @@ id ID_Notification_Monthly
 id ID_Notification_RadioGroup
 id ID_Notification_RadioGroupFrequency
 id ID_Notification_SavePreferences
+id ID_Notification_SrollView
 id ID_Notification_TextChoice
 id ID_Notification_TextFrequency
 id ID_Notification_Weekly
 id ID_Notification_subtitle
+id activity_notification
 id bottomNavigationView
 id fragment_container
 id main
@@ -38,7 +40,6 @@ id navigation_bag
 id navigation_filter
 id navigation_profile
 id textView
-id textView2
 id textView4
 id tipoDaVaga
 id tituloVaga

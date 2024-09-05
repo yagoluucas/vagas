@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_bag.xml.flat",
+        "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\bag.xml"
+    },
+    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -18,10 +22,6 @@
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_filtro.xml.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\filtro.xml"
-    },
-    {
-        "merged": "com.example.app_vagas.app-debug-31:/layout_activity_filter.xml.flat",
-        "source": "com.example.app_vagas.app-main-33:/layout/activity_filter.xml"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable-mdpi_ic_launcher_foreground.png.flat",
@@ -56,10 +56,6 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\vaga_item.xml"
     },
     {
-        "merged": "com.example.app_vagas.app-debug-31:/drawable_bag.xml.flat",
-        "source": "com.example.app_vagas.app-main-33:/drawable/bag.xml"
-    },
-    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -72,16 +68,16 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\layout_activity_filter.xml.flat",
+        "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\activity_filter.xml"
+    },
+    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_perfil.xml.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\perfil.xml"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\layout_activity_filter.xml.flat",
-        "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\activity_filter.xml"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\menu_bottom_nav_menu.xml.flat",
@@ -104,12 +100,12 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-pngs-27:\\drawable-ldpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.app_vagas.app-debug-31:/layout_activity_profile.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.example.app_vagas.app-debug-31:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.app_vagas.app-main-33:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_close.xml.flat",

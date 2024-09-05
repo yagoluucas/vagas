@@ -13,4 +13,8 @@ class FilterFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.activity_filter, container, false)
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
 }
