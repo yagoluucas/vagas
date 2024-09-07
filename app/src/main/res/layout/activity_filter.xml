@@ -19,34 +19,36 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/filtrar_texto"
-                android:layout_width="wrap_content"
+                android:id="@+id/tituloFiltro"
+                android:text="Aplique filtros"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/filtrar"
-                android:textColor="@color/importantText"
-                android:textFontWeight="700"
-                android:textSize="26sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.095"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.057" />
+                android:textSize="24sp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/subTituloFiltro"
+                app:layout_constraintTop_toBottomOf="parent"/>
 
             <TextView
-                android:id="@+id/tituloFiltro"
-                android:text="Aplique filtros para encontrar as vagas ideais para o seu perfil."
-                android:textColor="@color/importantText"
+                android:textSize="18sp"
+                android:text="Encontre as vagas ideais para o seu perfil"
+                android:id="@+id/subTituloFiltro"
                 android:layout_width="match_parent"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginHorizontal="10dp"
                 app:layout_constraintBottom_toTopOf="@+id/linear_layout"
-                app:layout_constraintTop_toBottomOf="@+id/filtrar_texto"/>
+                app:layout_constraintTop_toBottomOf="@+id/tituloFiltro"/>
 
             <LinearLayout
                 android:id="@+id/linear_layout"
@@ -54,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:focusableInTouchMode="true"
-                app:layout_constraintTop_toBottomOf="@+id/filtrar_texto"
+                app:layout_constraintTop_toBottomOf="@+id/subTituloFiltro"
                 app:layout_constraintBottom_toTopOf="@id/ID1_BtnAplicarFiltros_Button"
                 >
 

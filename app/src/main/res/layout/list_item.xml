@@ -11,6 +11,7 @@
         android:text="TextView"
         android:textSize="16sp"
         android:maxLines="1"
+        android:fontFamily="@font/roboto"
         android:ellipsize="end"
         android:textAppearance="?attr/textAppearanceSubtitle1"
         tools:layout_editor_absoluteX="52dp"

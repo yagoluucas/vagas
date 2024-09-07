@@ -43,7 +43,6 @@ id filter_autoComplete_horariotrabalho
 id filter_autoComplete_modeloContratacao
 id filter_autoComplete_senioridade
 id filter_autoComplete_tipoVaga
-id filtrar_texto
 id fragment_container
 id horarioTrabalho
 id linear_layout
@@ -58,6 +57,7 @@ id senioridade_estágio
 id senioridade_junior
 id senioridade_pleno
 id senioridade_senior
+id subTituloFiltro
 id textView2
 id tipoDaVaga
 id tituloFiltro

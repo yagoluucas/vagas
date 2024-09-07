@@ -3323,7 +3323,6 @@ id filter_autoComplete_horariotrabalho
 id filter_autoComplete_modeloContratacao
 id filter_autoComplete_senioridade
 id filter_autoComplete_tipoVaga
-id filtrar_texto
 id fitCenter
 id fitEnd
 id fitStart
@@ -3575,6 +3574,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id subTituloFiltro
 id submenuarrow
 id submit_area
 id supportScrollUp
