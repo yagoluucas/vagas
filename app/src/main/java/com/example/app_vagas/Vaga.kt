@@ -6,6 +6,7 @@ open class Vaga(
     val descricao: String?,
     val tipoVaga: String?,
     val horarioTrabalho: String?,
-    val modeloDeContratacao: String?
+    val modeloDeContratacao: String?,
+    val senioridade: String?
 ) {
 }

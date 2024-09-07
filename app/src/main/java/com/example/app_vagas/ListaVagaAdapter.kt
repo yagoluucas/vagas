@@ -18,7 +18,8 @@ class ListaVagaAdapter(
             itemView.findViewById<TextView>(R.id.tituloVaga).text = vaga.titulo
             itemView.findViewById<TextView>(R.id.modeloDaVaga).text = vaga.modeloDeContratacao
             itemView.findViewById<TextView>(R.id.tipoDaVaga).text = vaga.tipoVaga
-            itemView.findViewById<TextView>(R.id.textView4).text = vaga.horarioTrabalho
+            itemView.findViewById<TextView>(R.id.horarioTrabalho).text = vaga.horarioTrabalho
+            itemView.findViewById<TextView>(R.id.senioridade).text = vaga.senioridade
         }
 
     }

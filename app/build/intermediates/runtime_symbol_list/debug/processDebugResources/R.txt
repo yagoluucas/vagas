@@ -76,7 +76,6 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001e
 int animator mtrl_fab_show_motion_spec 0x7f02001f
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020020
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020021
-int array brew_array 0x7f030000
 int array com_google_android_gms_fonts_certs 0x7f030001
 int array com_google_android_gms_fonts_certs_dev 0x7f030002
 int array com_google_android_gms_fonts_certs_prod 0x7f030003
@@ -3120,7 +3119,7 @@ int id CTRL 0x7f0a0003
 int id FUNCTION 0x7f0a0004
 int id ID1_BtnAplicarFiltros_Button 0x7f0a0005
 int id ID1_Notification_title 0x7f0a0006
-int id ID_Filter_ClosePage 0x7f0a0007
+int id ID_Filter_ScrollView 0x7f0a0223
 int id ID_ListaVagas 0x7f0a0008
 int id ID_Notification_AtiveNotification 0x7f0a0009
 int id ID_Notification_Daily 0x7f0a000a
@@ -3319,6 +3318,11 @@ int id fill 0x7f0a00ca
 int id fill_horizontal 0x7f0a00cb
 int id fill_vertical 0x7f0a00cc
 int id filled 0x7f0a00cd
+int id filter_autoComplete_horariotrabalho 0x7f0a021f
+int id filter_autoComplete_modeloContratacao 0x7f0a0220
+int id filter_autoComplete_senioridade 0x7f0a021c
+int id filter_autoComplete_tipoVaga 0x7f0a021e
+int id filtrar_texto 0x7f0a0216
 int id fitCenter 0x7f0a00ce
 int id fitEnd 0x7f0a00cf
 int id fitStart 0x7f0a00d0
@@ -3346,6 +3350,7 @@ int id hideable 0x7f0a00e5
 int id home 0x7f0a00e6
 int id homeAsUp 0x7f0a00e7
 int id honorRequest 0x7f0a00e8
+int id horarioTrabalho 0x7f0a021a
 int id horizontal_only 0x7f0a00e9
 int id icon 0x7f0a00ea
 int id icon_group 0x7f0a00eb
@@ -3371,6 +3376,7 @@ int id legacy 0x7f0a00fe
 int id line1 0x7f0a00ff
 int id line3 0x7f0a0100
 int id linear 0x7f0a0101
+int id linear_layout 0x7f0a0221
 int id listMode 0x7f0a0102
 int id list_item 0x7f0a0103
 int id m3_side_sheet 0x7f0a0104
@@ -3527,6 +3533,7 @@ int id search_voice_btn 0x7f0a019a
 int id select_dialog_listview 0x7f0a019b
 int id selected 0x7f0a019c
 int id selection_type 0x7f0a019d
+int id senioridade 0x7f0a021b
 int id senioridade_assistente 0x7f0a019e
 int id senioridade_estágio 0x7f0a019f
 int id senioridade_junior 0x7f0a01a0
@@ -3591,8 +3598,7 @@ int id textSpacerNoButtons 0x7f0a01da
 int id textSpacerNoTitle 0x7f0a01db
 int id textStart 0x7f0a01dc
 int id textTop 0x7f0a01dd
-int id textView 0x7f0a01de
-int id textView4 0x7f0a01df
+int id textView2 0x7f0a0217
 int id text_input_end_icon 0x7f0a01e0
 int id text_input_error_icon 0x7f0a01e1
 int id text_input_start_icon 0x7f0a01e2
@@ -3607,6 +3613,7 @@ int id tipoDaVaga 0x7f0a01ea
 int id title 0x7f0a01eb
 int id titleDividerNoCustom 0x7f0a01ec
 int id title_template 0x7f0a01ed
+int id tituloFiltro 0x7f0a0222
 int id tituloVaga 0x7f0a01ee
 int id toggle 0x7f0a01ef
 int id top 0x7f0a01f0
@@ -3782,6 +3789,7 @@ int layout design_text_input_end_icon 0x7f0d002e
 int layout design_text_input_start_icon 0x7f0d002f
 int layout ime_base_split_test_activity 0x7f0d0030
 int layout ime_secondary_split_test_activity 0x7f0d0031
+int layout list_item 0x7f0d0070
 int layout m3_alert_dialog 0x7f0d0032
 int layout m3_alert_dialog_actions 0x7f0d0033
 int layout m3_alert_dialog_title 0x7f0d0034
@@ -3902,6 +3910,10 @@ int string error_icon_content_description 0x7f120031
 int string exposed_dropdown_menu_content_description 0x7f120032
 int string fab_transformation_scrim_behavior 0x7f120033
 int string fab_transformation_sheet_behavior 0x7f120034
+int string filter_horarioTrabalho 0x7f1200ac
+int string filter_modeloContratacao 0x7f1200ad
+int string filter_senioridade 0x7f1200aa
+int string filter_tipovaga 0x7f1200ab
 int string filtrar 0x7f120035
 int string hide_bottom_view_on_scroll_behavior 0x7f120036
 int string icon_content_description 0x7f120037

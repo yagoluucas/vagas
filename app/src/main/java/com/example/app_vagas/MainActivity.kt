@@ -2,6 +2,10 @@ package com.example.app_vagas
 
 import android.os.Bundle
 import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.AutoCompleteTextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.fragment.app.Fragment
@@ -46,7 +50,8 @@ class MainActivity : AppCompatActivity() {
                 descricao = "Descrição da vaga de analista de sistemas",
                 tipoVaga = "Tipo de vaga: Presencial",
                 horarioTrabalho = "Período de trabalho: Matutino",
-                modeloDeContratacao = "Modelo de contratação: CLT"
+                modeloDeContratacao = "Modelo de contratação: CLT",
+                senioridade = "Senioridade: Pleno"
             ),
             Vaga(
                 id = 2,
@@ -54,7 +59,8 @@ class MainActivity : AppCompatActivity() {
                 descricao = "Descrição da vaga de analista de sistemas",
                 tipoVaga = "Tipo de vaga: Presencial",
                 horarioTrabalho = "Período de trabalho: Matutino",
-                modeloDeContratacao = "Modelo de contratação: CLT"
+                modeloDeContratacao = "Modelo de contratação: CLT",
+                senioridade = "Senioridade: Assistente"
             ),
             Vaga(
                 id = 3,
@@ -62,7 +68,8 @@ class MainActivity : AppCompatActivity() {
                 descricao = "Descrição da vaga de analista de sistemas",
                 tipoVaga = "Tipo de vaga: Presencial",
                 horarioTrabalho = "Período de trabalho: Matutino",
-                modeloDeContratacao = "Modelo de contratação: CLT"
+                modeloDeContratacao = "Modelo de contratação: CLT",
+                senioridade = "Senioridade: Júnior"
             ),
             Vaga(
                 id = 3,
@@ -70,7 +77,8 @@ class MainActivity : AppCompatActivity() {
                 descricao = "Descrição da vaga de analista de sistemas",
                 tipoVaga = "Tipo de vaga: Presencial",
                 horarioTrabalho = "Período de trabalho: Matutino",
-                modeloDeContratacao = "Modelo de contratação: CLT"
+                modeloDeContratacao = "Modelo de contratação: CLT",
+                senioridade = "Senioridade: Estágio"
             ),
             Vaga(
                 id = 3,
@@ -78,7 +86,8 @@ class MainActivity : AppCompatActivity() {
                 descricao = "Descrição da vaga de analista de sistemas",
                 tipoVaga = "Tipo de vaga: Presencial",
                 horarioTrabalho = "Período de trabalho: Matutino",
-                modeloDeContratacao = "Modelo de contratação: CLT"
+                modeloDeContratacao = "Modelo de contratação: CLT",
+                senioridade = "Senioridade: Estágio"
             ),
             Vaga(
                 id = 3,
@@ -86,7 +95,8 @@ class MainActivity : AppCompatActivity() {
                 descricao = "Descrição da vaga de analista de sistemas",
                 tipoVaga = "Tipo de vaga: Presencial",
                 horarioTrabalho = "Período de trabalho: Matutino",
-                modeloDeContratacao = "Modelo de contratação: CLT"
+                modeloDeContratacao = "Modelo de contratação: CLT",
+                senioridade = "Senioridade: Estágio"
             )
         ))
         recyclerView.layoutManager = LinearLayoutManager(this)
