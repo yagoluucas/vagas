@@ -1,6 +1,10 @@
 R_DEF: Internal format may change without notice
 local
 array brew_array
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 color background_color
 color black
 color importantText
@@ -12,8 +16,12 @@ drawable close
 drawable filtro
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable menu_item_background
 drawable notificacao
-drawable perfil
+drawable vaga_container_background
+font poppins_light
+font poppins_medium
+font roboto
 id ID1_BtnAplicarFiltros_Button
 id ID1_Notification_title
 id ID_Filter_ClosePage
@@ -38,7 +46,11 @@ id modeloDaVaga
 id navigation_alert
 id navigation_bag
 id navigation_filter
-id navigation_profile
+id senioridade_assistente
+id senioridade_estágio
+id senioridade_junior
+id senioridade_pleno
+id senioridade_senior
 id textView
 id textView4
 id tipoDaVaga
@@ -46,10 +58,10 @@ id tituloVaga
 layout activity_filter
 layout activity_main
 layout activity_notification
-layout activity_profile
 layout bottom_navigation_bar
 layout vaga_item
 menu bottom_nav_menu
+menu senioridade_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string aplicar_filtros
@@ -57,5 +69,6 @@ string app_name
 string filtrar
 style Base.Theme.Appvagas
 style Theme.Appvagas
+style navigationItemBackground
 xml backup_rules
 xml data_extraction_rules

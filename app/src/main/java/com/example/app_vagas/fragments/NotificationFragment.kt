@@ -21,6 +21,5 @@ class NotificationFragment : Fragment() {
 
         // exemplo de uso do findViewById, toda lógica deve ser feita aqui
         val myRadioButton = view.findViewById<RadioButton>(R.id.ID_Notification_AtiveNotification)
-        myRadioButton.isChecked = true
     }
 }

@@ -1,19 +1,12 @@
 package com.example.app_vagas
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.app_vagas.fragments.BagFragment
-import com.example.app_vagas.test.NotificationActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -34,11 +27,6 @@ class MainActivity : AppCompatActivity() {
                     removeRecyclerView()
                     true
                 }
-                R.id.navigation_profile -> {
-                    loadFragment(ProfileFragment())
-                    removeRecyclerView()
-                    true
-                }
 
                 R.id.navigation_bag -> {
                     loadFragment(BagFragment())
@@ -54,51 +42,51 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = ListaVagaAdapter(this, listOf(
             Vaga(
                 id = 1,
-                titulo = "Vaga de Analista de Sistemas",
+                titulo = "Analista de Projetos de CRM Pleno",
                 descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Integral",
-                modeloDeContratacao = "CLT"
+                tipoVaga = "Tipo de vaga: Presencial",
+                horarioTrabalho = "Período de trabalho: Matutino",
+                modeloDeContratacao = "Modelo de contratação: CLT"
             ),
             Vaga(
                 id = 2,
-                titulo = "Vaga de Analista de Sistemas",
+                titulo = "Analista de Sistemas",
                 descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Integral",
-                modeloDeContratacao = "CLT"
+                tipoVaga = "Tipo de vaga: Presencial",
+                horarioTrabalho = "Período de trabalho: Matutino",
+                modeloDeContratacao = "Modelo de contratação: CLT"
             ),
             Vaga(
                 id = 3,
-                titulo = "Vaga de Analista de Sistemas",
+                titulo = "DBA Pleno",
                 descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Integral",
-                modeloDeContratacao = "CLT"
+                tipoVaga = "Tipo de vaga: Presencial",
+                horarioTrabalho = "Período de trabalho: Matutino",
+                modeloDeContratacao = "Modelo de contratação: CLT"
             ),
             Vaga(
                 id = 3,
-                titulo = "Vaga de Analista de Sistemas",
+                titulo = "Analista Salesforce",
                 descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Integral",
-                modeloDeContratacao = "CLT"
+                tipoVaga = "Tipo de vaga: Presencial",
+                horarioTrabalho = "Período de trabalho: Matutino",
+                modeloDeContratacao = "Modelo de contratação: CLT"
             ),
             Vaga(
                 id = 3,
-                titulo = "Vaga de Analista de Sistemas",
+                titulo = "Marketing Digital",
                 descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Integral",
-                modeloDeContratacao = "CLT"
+                tipoVaga = "Tipo de vaga: Presencial",
+                horarioTrabalho = "Período de trabalho: Matutino",
+                modeloDeContratacao = "Modelo de contratação: CLT"
             ),
             Vaga(
                 id = 3,
-                titulo = "Vaga de Analista de Sistemas",
+                titulo = "Desenvolvedor Backend Java",
                 descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Integral",
-                modeloDeContratacao = "CLT"
+                tipoVaga = "Tipo de vaga: Presencial",
+                horarioTrabalho = "Período de trabalho: Matutino",
+                modeloDeContratacao = "Modelo de contratação: CLT"
             )
         ))
         recyclerView.layoutManager = LinearLayoutManager(this)
