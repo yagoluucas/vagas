@@ -36,10 +36,6 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\font\\poppins_light.xml"
     },
     {
-        "merged": "com.example.app_vagas.app-debug-31:/layout_activity_filter.xml.flat",
-        "source": "com.example.app_vagas.app-main-33:/layout/activity_filter.xml"
-    },
-    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-pngs-27:\\drawable-mdpi\\ic_launcher_foreground.png"
     },
@@ -138,6 +134,10 @@
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\layout_bottom_navigation_bar.xml.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\bottom_navigation_bar.xml"
+    },
+    {
+        "merged": "com.example.app_vagas.app-debug-31:/layout_vaga_item.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/layout/vaga_item.xml"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_vaga_container_background.xml.flat",

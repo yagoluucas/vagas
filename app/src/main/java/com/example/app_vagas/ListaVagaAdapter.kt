@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.app_vagas.model.Vaga
 
 class ListaVagaAdapter(
     private val context: Context,
@@ -46,4 +47,6 @@ class ListaVagaAdapter(
         Método responsável por indicar quantos itens o adapter deve exibir no RecyclerView
     */
     override fun getItemCount(): Int = listaVaga.size
+
+
 }
