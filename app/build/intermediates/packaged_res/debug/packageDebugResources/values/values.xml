@@ -36,7 +36,7 @@
     </style>
     <style name="Theme.Appvagas" parent="Base.Theme.Appvagas"/>
     <style name="navigationItemBackground" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
-        <item name="itemBackground" ns1:color="@color/white" ns1:state_checked="true">
+        <item ns1:color="@color/white" ns1:state_checked="true" name="itemBackground">
             @drawable/menu_item_background
         </item>
     </style>

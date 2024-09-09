@@ -1,5 +1,5 @@
-com.example.app_vagas.test.app-core-1.6.1-0 C:\Users\Yago\.gradle\caches\transforms-4\e55ed4e6aa3373ab84b8d900a408c554\transformed\core-1.6.1\res
-com.example.app_vagas.test.app-androidTest-1 C:\programacao\fiap\2_ano\cp_mobile\app\build\generated\res\resValues\androidTest\debug
-com.example.app_vagas.test.app-mergeDebugAndroidTestResources-2 C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.app_vagas.test.app-mergeDebugAndroidTestResources-3 C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.app_vagas.test.app-debugAndroidTest-4 C:\programacao\fiap\2_ano\cp_mobile\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.app_vagas.test.app-core-1.6.1-0 C:\Users\caver\.gradle\caches\transforms-4\e55ed4e6aa3373ab84b8d900a408c554\transformed\core-1.6.1\res
+com.example.app_vagas.test.app-androidTest-1 C:\Users\caver\OneDrive\Documentos\kotlin\vagas\app\build\generated\res\resValues\androidTest\debug
+com.example.app_vagas.test.app-mergeDebugAndroidTestResources-2 C:\Users\caver\OneDrive\Documentos\kotlin\vagas\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.app_vagas.test.app-mergeDebugAndroidTestResources-3 C:\Users\caver\OneDrive\Documentos\kotlin\vagas\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.app_vagas.test.app-debugAndroidTest-4 C:\Users\caver\OneDrive\Documentos\kotlin\vagas\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

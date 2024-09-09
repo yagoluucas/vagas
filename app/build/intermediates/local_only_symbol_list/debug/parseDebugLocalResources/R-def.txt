@@ -38,7 +38,9 @@ id ID_Notification_TextFrequency
 id ID_Notification_Weekly
 id ID_Notification_subtitle
 id activity_notification
+id bottomNavigationFragment
 id bottomNavigationView
+id bottom_navigation_bar
 id filter_autoComplete_horariotrabalho
 id filter_autoComplete_modeloContratacao
 id filter_autoComplete_senioridade
@@ -62,6 +64,7 @@ id textView2
 id tipoDaVaga
 id tituloFiltro
 id tituloVaga
+layout activity_bag
 layout activity_filter
 layout activity_main
 layout activity_notification
