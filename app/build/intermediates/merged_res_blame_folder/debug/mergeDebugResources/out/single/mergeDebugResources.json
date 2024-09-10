@@ -64,6 +64,10 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "com.example.app_vagas.app-debug-31:/layout_bottom_navigation_bar.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/layout/bottom_navigation_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -116,6 +120,10 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\background_button.xml"
     },
     {
+        "merged": "com.example.app_vagas.app-debug-31:/drawable_bottom_nav_item_background.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/drawable/bottom_nav_item_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable-ldpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-pngs-27:\\drawable-ldpi\\ic_launcher_foreground.png"
     },
@@ -128,6 +136,10 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\close.xml"
     },
     {
+        "merged": "com.example.app_vagas.app-debug-31:/drawable_item_bottom_background_selected.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/drawable/item_bottom_background_selected.xml"
+    },
+    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -136,16 +148,16 @@
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\bottom_navigation_bar.xml"
     },
     {
-        "merged": "com.example.app_vagas.app-debug-31:/layout_activity_notification.xml.flat",
-        "source": "com.example.app_vagas.app-main-33:/layout/activity_notification.xml"
-    },
-    {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_vaga_container_background.xml.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\vaga_container_background.xml"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_notificacao.xml.flat",
         "source": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\notificacao.xml"
+    },
+    {
+        "merged": "com.example.app_vagas.app-debug-31:/drawable_item_bottom_background_unselected.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/drawable/item_bottom_background_unselected.xml"
     },
     {
         "merged": "C:\\Users\\Yago\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
