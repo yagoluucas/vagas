@@ -3323,6 +3323,7 @@ id filter_autoComplete_horariotrabalho
 id filter_autoComplete_modeloContratacao
 id filter_autoComplete_senioridade
 id filter_autoComplete_tipoVaga
+id filter_container
 id fitCenter
 id fitEnd
 id fitStart
@@ -3370,6 +3371,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_filtrar
 id left
 id leftToRight
 id legacy
@@ -3381,6 +3383,7 @@ id listMode
 id list_item
 id m3_side_sheet
 id main
+id main_container
 id marquee
 id masked
 id match_constraint
@@ -3460,6 +3463,7 @@ id none
 id normal
 id north
 id notification_background
+id notification_container
 id notification_main_column
 id notification_main_column_container
 id off
@@ -3534,11 +3538,6 @@ id select_dialog_listview
 id selected
 id selection_type
 id senioridade
-id senioridade_assistente
-id senioridade_estágio
-id senioridade_junior
-id senioridade_pleno
-id senioridade_senior
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3854,7 +3853,6 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout vaga_item
 menu bottom_nav_menu
-menu senioridade_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

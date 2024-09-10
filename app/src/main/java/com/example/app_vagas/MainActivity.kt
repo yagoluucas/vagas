@@ -1,12 +1,13 @@
 package com.example.app_vagas
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.app_vagas.fragments.BagFragment
+import com.example.app_vagas.fragments.BottomNavigationFragment
 import com.example.app_vagas.model.Vaga
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -15,27 +16,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-        bottomNavigationView.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.navigation_filter -> {
-                    loadFragment(FilterFragment())
-                    removeRecyclerView()
-                    true
-                }
-                R.id.navigation_alert -> {
-                    loadFragment(NotificationFragment())
-                    removeRecyclerView()
-                    true
-                }
-
-                R.id.navigation_bag -> {
-                    loadFragment(BagFragment())
-                    addRecyclerView()
-                    true
-                }
-                else -> false
-            }
+        if (savedInstanceState == null) {
+            // Adiciona o fragmento à activity
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.main_container, BottomNavigationFragment())
+                .commit()
         }
 
         // usando a lista de vagas
@@ -97,21 +82,5 @@ class MainActivity : AppCompatActivity() {
             )
         ))
         recyclerView.layoutManager = LinearLayoutManager(this)
-    }
-
-    private fun loadFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, fragment)
-            .commit()
-    }
-
-    private fun removeRecyclerView(){
-        val recyclerView = findViewById<RecyclerView>(R.id.ID_ListaVagas)
-        recyclerView.visibility = View.GONE
-    }
-
-    private fun addRecyclerView(){
-        val recyclerView = findViewById<RecyclerView>(R.id.ID_ListaVagas)
-        recyclerView.visibility = View.VISIBLE
     }
 }

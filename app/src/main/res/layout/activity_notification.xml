@@ -11,13 +11,13 @@
     <ScrollView
         android:id="@+id/ID_Notification_SrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="104dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="parent">
+        app:layout_constraintBottom_toTopOf="@+id/notification_container">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -198,6 +198,16 @@
                 tools:layout_editor_absoluteY="479dp" />
         </LinearLayout>
     </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/notification_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ID_Notification_SrollView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

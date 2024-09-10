@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color">
+    android:background="@color/background_color"
+    android:id="@+id/layout_filtrar">
 
     <ScrollView
         android:id="@+id/ID_Filter_ScrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="104dp"
+        android:layout_height="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="parent">
+        app:layout_constraintBottom_toTopOf="@id/filter_container">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -178,4 +177,15 @@
 
 
     </ScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/filter_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ID_Filter_ScrollView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

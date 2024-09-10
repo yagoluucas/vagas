@@ -3322,6 +3322,7 @@ int id filter_autoComplete_horariotrabalho 0x7f0a021f
 int id filter_autoComplete_modeloContratacao 0x7f0a0220
 int id filter_autoComplete_senioridade 0x7f0a021c
 int id filter_autoComplete_tipoVaga 0x7f0a021e
+int id filter_container 0x7f0a0227
 int id fitCenter 0x7f0a00ce
 int id fitEnd 0x7f0a00cf
 int id fitStart 0x7f0a00d0
@@ -3369,6 +3370,7 @@ int id jumpToEnd 0x7f0a00f8
 int id jumpToStart 0x7f0a00f9
 int id labeled 0x7f0a00fa
 int id layout 0x7f0a00fb
+int id layout_filtrar 0x7f0a0225
 int id left 0x7f0a00fc
 int id leftToRight 0x7f0a00fd
 int id legacy 0x7f0a00fe
@@ -3380,6 +3382,7 @@ int id listMode 0x7f0a0102
 int id list_item 0x7f0a0103
 int id m3_side_sheet 0x7f0a0104
 int id main 0x7f0a0105
+int id main_container 0x7f0a0228
 int id marquee 0x7f0a0106
 int id masked 0x7f0a0107
 int id match_constraint 0x7f0a0108
@@ -3459,6 +3462,7 @@ int id none 0x7f0a0151
 int id normal 0x7f0a0152
 int id north 0x7f0a0153
 int id notification_background 0x7f0a0154
+int id notification_container 0x7f0a0229
 int id notification_main_column 0x7f0a0155
 int id notification_main_column_container 0x7f0a0156
 int id off 0x7f0a0157
@@ -3533,11 +3537,6 @@ int id select_dialog_listview 0x7f0a019b
 int id selected 0x7f0a019c
 int id selection_type 0x7f0a019d
 int id senioridade 0x7f0a021b
-int id senioridade_assistente 0x7f0a019e
-int id senioridade_estágio 0x7f0a019f
-int id senioridade_junior 0x7f0a01a0
-int id senioridade_pleno 0x7f0a01a1
-int id senioridade_senior 0x7f0a01a2
 int id sharedValueSet 0x7f0a01a3
 int id sharedValueUnset 0x7f0a01a4
 int id shortcut 0x7f0a01a5
@@ -3853,7 +3852,6 @@ int layout select_dialog_singlechoice_material 0x7f0d006d
 int layout support_simple_spinner_dropdown_item 0x7f0d006e
 int layout vaga_item 0x7f0d006f
 int menu bottom_nav_menu 0x7f0f0000
-int menu senioridade_menu 0x7f0f0001
 int mipmap ic_launcher 0x7f100000
 int mipmap ic_launcher_round 0x7f100001
 int plurals mtrl_badge_content_description 0x7f110000

@@ -36,6 +36,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.app_vagas.activity.FilterActivity" />
+        <activity android:name="com.example.app_vagas.activity.NotificationActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

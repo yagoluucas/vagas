@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Yago\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Yago\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Yago\.gradle\caches\transforms-4\b37a71039f7c6b4a0944957b20860b7e\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Yago\.gradle\caches\transforms
 	xmlns:android
 		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:5:5-27:19
-INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:5:5-29:19
+INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:5:5-29:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Yago\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Yago\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Yago\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -112,12 +112,20 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:21:27-74
-meta-data#preloaded_fonts
-ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:24:9-26:57
-	android:resource
-		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:26:13-54
+activity#com.example.app_vagas.activity.FilterActivity
+ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:24:9-60
 	android:name
-		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:25:13-43
+		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:24:19-58
+activity#com.example.app_vagas.activity.NotificationActivity
+ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:25:19-64
+meta-data#preloaded_fonts
+ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:26:9-28:57
+	android:resource
+		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:28:13-54
+	android:name
+		ADDED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml:27:13-43
 uses-sdk
 INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\programacao\fiap\2_ano\cp_mobile\app\src\main\AndroidManifest.xml
