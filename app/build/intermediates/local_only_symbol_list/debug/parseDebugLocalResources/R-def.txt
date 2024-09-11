@@ -41,6 +41,9 @@ id ID_Notification_Weekly
 id ID_Notification_subtitle
 id activity_notification
 id bottomNavigationView
+id btnAddVaga
+id edtDescricao
+id edtTitulo
 id filter_autoComplete_horariotrabalho
 id filter_autoComplete_modeloContratacao
 id filter_autoComplete_senioridade
@@ -58,6 +61,10 @@ id navigation_bag
 id navigation_filter
 id notification_container
 id senioridade
+id spinnerHorarioTrabalho
+id spinnerModeloContratacao
+id spinnerSenioridade
+id spinnerTipoVaga
 id subTituloFiltro
 id textView2
 id tipoDaVaga
@@ -66,6 +73,7 @@ id tituloVaga
 layout activity_filter
 layout activity_main
 layout activity_notification
+layout add_vaga
 layout bottom_navigation_bar
 layout list_item
 layout vaga_item
