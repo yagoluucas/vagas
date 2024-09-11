@@ -12,6 +12,9 @@ import com.example.app_vagas.model.Vaga
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
+    val listaVagas = ArrayList<Vaga>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
 
-        val listaVagas = ArrayList<Vaga>()
         listaVagas.add(Vaga(
             id = 1,
             titulo = "Analista de Projetos de CRM Pleno",
@@ -40,6 +42,10 @@ class MainActivity : AppCompatActivity() {
         ))
 
         recyclerView.adapter = ListaVagaAdapter(this, listaVagas)
+
+    }
+
+    fun addVaga(){
 
     }
 }
