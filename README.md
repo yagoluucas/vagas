@@ -39,6 +39,3 @@ O **App Vagas** é um aplicativo desenvolvido em Kotlin e Java que permite aos u
 3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`).
 4. Faça o push para a branch (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
-
-## Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
