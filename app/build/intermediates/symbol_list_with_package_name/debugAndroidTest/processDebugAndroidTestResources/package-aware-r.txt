@@ -1,3 +1,0 @@
-com.example.app_vagas.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
