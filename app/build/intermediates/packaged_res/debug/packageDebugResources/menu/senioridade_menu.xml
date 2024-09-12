@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/senioridade_estágio"
+        android:title="Estágio"/>
+
+    <item
+        android:id="@+id/senioridade_assistente"
+        android:title="Assistente"/>
+
+    <item android:id="@+id/senioridade_junior"
+        android:title="Junior"/>
+
+    <item android:id="@+id/senioridade_pleno"
+        android:title="Pleno"/>
+
+    <item android:id="@+id/senioridade_senior"
+        android:title="Senior"/>
+</menu>
