@@ -41,6 +41,9 @@ id activity_notification
 id bottomNavigationFragment
 id bottomNavigationView
 id bottom_navigation_bar
+id btnAddVaga
+id edtDescricao
+id edtTitulo
 id filter_autoComplete_horariotrabalho
 id filter_autoComplete_modeloContratacao
 id filter_autoComplete_senioridade
@@ -59,6 +62,10 @@ id senioridade_estágio
 id senioridade_junior
 id senioridade_pleno
 id senioridade_senior
+id spinnerHorarioTrabalho
+id spinnerModeloContratacao
+id spinnerSenioridade
+id spinnerTipoVaga
 id subTituloFiltro
 id textView2
 id tipoDaVaga
@@ -68,6 +75,7 @@ layout activity_bag
 layout activity_filter
 layout activity_main
 layout activity_notification
+layout add_vaga
 layout bottom_navigation_bar
 layout list_item
 layout vaga_item

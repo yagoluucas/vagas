@@ -9,4 +9,6 @@ open class Vaga(
     val modeloDeContratacao: String?,
     val senioridade: String?
 ) {
+
 }
+

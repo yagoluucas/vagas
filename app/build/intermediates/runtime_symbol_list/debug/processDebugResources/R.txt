@@ -3230,6 +3230,7 @@ int id bounce 0x7f0a0071
 int id bounceBoth 0x7f0a0072
 int id bounceEnd 0x7f0a0073
 int id bounceStart 0x7f0a0074
+int id btnAddVaga 0x7f0a021f
 int id buttonPanel 0x7f0a0075
 int id cache_measures 0x7f0a0076
 int id callMeasure 0x7f0a0077
@@ -3305,6 +3306,8 @@ int id east 0x7f0a00bc
 int id edge 0x7f0a00bd
 int id edit_query 0x7f0a00be
 int id edit_text_id 0x7f0a00bf
+int id edtDescricao 0x7f0a0220
+int id edtTitulo 0x7f0a0221
 int id elastic 0x7f0a00c0
 int id embed 0x7f0a00c1
 int id end 0x7f0a00c2
@@ -3557,6 +3560,10 @@ int id snapMargins 0x7f0a01b8
 int id south 0x7f0a01b9
 int id spacer 0x7f0a01ba
 int id special_effects_controller_view_tag 0x7f0a01bb
+int id spinnerHorarioTrabalho 0x7f0a0222
+int id spinnerModeloContratacao 0x7f0a0223
+int id spinnerSenioridade 0x7f0a0224
+int id spinnerTipoVaga 0x7f0a0225
 int id spline 0x7f0a01bc
 int id split_action_bar 0x7f0a01bd
 int id spread 0x7f0a01be
@@ -3773,6 +3780,7 @@ int layout activity_bag 0x7f0d001c
 int layout activity_filter 0x7f0d001d
 int layout activity_main 0x7f0d001e
 int layout activity_notification 0x7f0d001f
+int layout add_vaga 0x7f0d0072
 int layout bottom_navigation_bar 0x7f0d0020
 int layout custom_dialog 0x7f0d0021
 int layout design_bottom_navigation_item 0x7f0d0022

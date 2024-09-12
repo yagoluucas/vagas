@@ -4,6 +4,10 @@
         "source": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\layout_add_vaga.xml.flat",
+        "source": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\layout\\add_vaga.xml"
+    },
+    {
         "merged": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -124,10 +128,6 @@
         "source": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.app_vagas.app-debug-31:/layout_activity_notification.xml.flat",
-        "source": "com.example.app_vagas.app-main-33:/layout/activity_notification.xml"
-    },
-    {
         "merged": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-pngs-27:\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_background_button.xml.flat",
         "source": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-main-33:\\drawable\\background_button.xml"
+    },
+    {
+        "merged": "com.example.app_vagas.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.app_vagas.app-main-33:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\caver\\.gradle\\daemon\\8.7\\com.example.app_vagas.app-debug-31:\\drawable_notificacao.xml.flat",
