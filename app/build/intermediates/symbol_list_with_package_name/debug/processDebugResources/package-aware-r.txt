@@ -3118,7 +3118,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id ID1_BtnAplicarFiltros_Button
 id ID1_Notification_title
 id ID_Filter_ScrollView
 id ID_ListaVagas
@@ -3231,7 +3230,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnAddVaga
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3278,6 +3276,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descricao
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3324,10 +3323,8 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id filter_autoComplete_horariotrabalho
-id filter_autoComplete_modeloContratacao
-id filter_autoComplete_senioridade
-id filter_autoComplete_tipoVaga
+id filter_BtnAplicarFiltros_Button
+id filter_autoComplete_linguagem
 id fitCenter
 id fitEnd
 id fitStart
@@ -3355,7 +3352,6 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
-id horarioTrabalho
 id horizontal_only
 id icon
 id icon_group
@@ -3384,6 +3380,7 @@ id linear
 id linear_layout
 id listMode
 id list_item
+id localVaga
 id m3_side_sheet
 id main
 id marquee
@@ -3414,7 +3411,6 @@ id matrix
 id message
 id middle
 id mini
-id modeloDaVaga
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3538,7 +3534,6 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id senioridade
 id senioridade_assistente
 id senioridade_estágio
 id senioridade_junior
@@ -3619,7 +3614,6 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
-id tipoDaVaga
 id title
 id titleDividerNoCustom
 id title_template

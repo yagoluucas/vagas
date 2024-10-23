@@ -1,6 +1,9 @@
 package com.example.app_vagas
 
+import android.app.Activity
 import android.os.Bundle
+import android.util.JsonReader
+import android.util.Log
 import android.view.LayoutInflater
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -10,6 +13,11 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.app_vagas.model.Vaga
+import org.json.JSONObject
+import java.io.InputStreamReader
+import java.net.URL
+import java.util.concurrent.Executors
+import javax.net.ssl.HttpsURLConnection
 
 class MainActivity : BaseActivity() {
 
@@ -25,94 +33,78 @@ class MainActivity : BaseActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = ListaVagaAdapter(this, listaVagas)
         recyclerView.adapter = adapter
-
-        // Adiciona uma vaga inicial
-        listaVagas.add(
-            Vaga(
-                id = 1,
-                titulo = "Analista de Projetos de CRM Pleno",
-                descricao = "Descrição da vaga de analista de sistemas",
-                tipoVaga = "Presencial",
-                horarioTrabalho = "Matutino",
-                modeloDeContratacao = "CLT",
-                senioridade = "Pleno"
-            )
-        )
-        adapter.notifyDataSetChanged()
-
-        // Botão para adicionar nova vaga
-        val btnAddVaga: Button = findViewById(R.id.btnAddVaga)
-        btnAddVaga.setOnClickListener {
-            showAddVagaDialog()
-        }
+        val linguagem = intent.getStringExtra("linguagem")?: "Java"
+        buscarVaga(recyclerView, linguagem)
     }
 
-    private fun showAddVagaDialog() {
-        val dialogView = LayoutInflater.from(this).inflate(R.layout.add_vaga, null)
+    fun buscarVaga(listaVaga: RecyclerView, linguagem: String) {
+        val url = URL("https://api.adzuna.com/v1/api/jobs/br/search/1?app_id=d4214fb8&app_key=22071f274f8ca734efe476ffb52cb390&" +
+                "what=${linguagem}" +
+                "&where=brasil" +
+                "&results_per_page=30" +
+                "&sort_by=date")
+        val executorEmSegundoPlano = Executors.newSingleThreadExecutor()
 
-        // Configura os Spinners
-        val tiposVaga = arrayOf("Presencial", "Híbrido", "Remoto")
-        val horariosTrabalho = arrayOf("Matutino", "Vespertino", "Noturno")
-        val modelosContratacao = arrayOf("PJ", "CLT")
-        val senioridades = arrayOf("Estágio", "Assistente", "Júnior", "Pleno", "Sênior")
+        executorEmSegundoPlano.execute {
 
-        val tipoVagaAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, tiposVaga)
-        val horarioTrabalhoAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, horariosTrabalho)
-        val modeloContratacaoAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, modelosContratacao)
-        val senioridadeAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, senioridades)
+            try {
+                // Abre conexão com a API
+                val conexao = url.openConnection() as HttpsURLConnection
+                conexao.requestMethod = "GET"
+                conexao.setRequestProperty("Accept", "application/json")
 
-        tipoVagaAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        horarioTrabalhoAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        modeloContratacaoAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        senioridadeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                val responseCode = conexao.responseCode
+                if (responseCode == 200) {
+                    // Lê o corpo da resposta
+                    val responseBody = conexao.inputStream.bufferedReader().use { it.readText() }
 
-        val spinnerTipoVaga: Spinner = dialogView.findViewById(R.id.spinnerTipoVaga)
-        val spinnerHorarioTrabalho: Spinner = dialogView.findViewById(R.id.spinnerHorarioTrabalho)
-        val spinnerModeloContratacao: Spinner = dialogView.findViewById(R.id.spinnerModeloContratacao)
-        val spinnerSenioridade: Spinner = dialogView.findViewById(R.id.spinnerSenioridade)
+                    // Parseia o JSON
+                    val jsonObject = JSONObject(responseBody)
+                    val resultsArray = jsonObject.getJSONArray("results")
 
-        spinnerTipoVaga.adapter = tipoVagaAdapter
-        spinnerHorarioTrabalho.adapter = horarioTrabalhoAdapter
-        spinnerModeloContratacao.adapter = modeloContratacaoAdapter
-        spinnerSenioridade.adapter = senioridadeAdapter
+                    val listaVagas = mutableListOf<Vaga>()
 
-        val dialogBuilder = AlertDialog.Builder(this)
-            .setView(dialogView)
-            .setTitle("Adicionar Vaga")
-            .setPositiveButton("Adicionar") { _, _ ->
-                val edtTitulo: EditText = dialogView.findViewById(R.id.edtTitulo)
-                val edtDescricao: EditText = dialogView.findViewById(R.id.edtDescricao)
+                    for (i in 0 until resultsArray.length()) {
+                        val jobObject = resultsArray.getJSONObject(i)
+                        val id = jobObject.getString("id").toLong()  // Pega o ID e converte para Int
+                        val titulo = jobObject.getString("title")
+                        val descricao = jobObject.getString("description")
+                        val locationObject = jobObject.getJSONObject("location")
+                        val location = locationObject.getString("display_name")
+                        val linkVaga = jobObject.getString("redirect_url")
 
-                val tituloVaga = edtTitulo.text.toString()
-                val descricaoVaga = edtDescricao.text.toString()
-                val tipoVaga = spinnerTipoVaga.selectedItem.toString()
-                val horarioTrabalho = spinnerHorarioTrabalho.selectedItem.toString()
-                val modeloContratacao = spinnerModeloContratacao.selectedItem.toString()
-                val senioridade = spinnerSenioridade.selectedItem.toString()
+                        // Adiciona a vaga na lista
+                        listaVagas.add(
+                            Vaga(
+                                id = id,
+                                titulo = titulo,
+                                descricao = descricao,
+                                localVaga = location,
+                                linkvaga = linkVaga ?: "Sem link"
+                            )
+                        )
+                    }
 
-                if (tituloVaga.isNotEmpty()) {
-                    // Adiciona a nova vaga na lista
-                    val novaVaga = Vaga(
-                        id = (listaVagas.size + 1).toLong(),
-                        titulo = tituloVaga,
-                        descricao = descricaoVaga,
-                        tipoVaga = tipoVaga,
-                        horarioTrabalho = horarioTrabalho,
-                        modeloDeContratacao = modeloContratacao,
-                        senioridade = senioridade
-                    )
-                    listaVagas.add(novaVaga)
-                    adapter.notifyDataSetChanged() // Atualiza a lista
+                    // Atualiza o RecyclerView na thread principal
+                    (listaVaga.context as Activity).runOnUiThread {
+                        val adapter = ListaVagaAdapter(this, listaVagas)
+                        listaVaga.adapter = adapter
+                    }
+                } else {
+                    Log.e("Erro", "Falha na conexão: $responseCode")
                 }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            } finally {
+                executorEmSegundoPlano.shutdown()
             }
-            .setNegativeButton("Cancelar", null)
-
-        val dialog = dialogBuilder.create()
-        dialog.show()
+        }
     }
 
     override fun updateBottomNavigationSelection() {
         val fragment = supportFragmentManager.findFragmentByTag("BOTTOM_NAVIGATION_FRAGMENT") as? BottomNavigationFragment
         fragment?.updateSelectedItem(R.id.navigation_bag)
     }
+
+
 }

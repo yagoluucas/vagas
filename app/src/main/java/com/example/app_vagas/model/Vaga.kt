@@ -4,10 +4,8 @@ open class Vaga(
     val id: Long,
     val titulo: String,
     val descricao: String?,
-    val tipoVaga: String?,
-    val horarioTrabalho: String?,
-    val modeloDeContratacao: String?,
-    val senioridade: String?
+    val localVaga: String?,
+    val linkvaga: String?
 ) {
 
 }

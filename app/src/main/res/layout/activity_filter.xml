@@ -57,81 +57,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/filter_senioridade"
-                        android:labelFor="@id/filter_autoComplete_senioridade" />
+                        android:text="Linguagem"
+                        android:labelFor="@id/filter_autoComplete_linguagem" />
 
                     <AutoCompleteTextView
-                        android:id="@+id/filter_autoComplete_senioridade"
+                        android:id="@+id/filter_autoComplete_linguagem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto"
-                        android:hint="@string/filter_senioridade"
-                        android:inputType="none" />
-
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="10dp"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/filter_tipovaga"
-                        android:labelFor="@id/filter_autoComplete_tipoVaga" />
-
-                    <AutoCompleteTextView
-                        android:id="@+id/filter_autoComplete_tipoVaga"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto"
-                        android:hint="@string/filter_tipovaga"
-                        android:inputType="none"/>
-
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="10dp"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/filter_horarioTrabalho"
-                        android:labelFor="@id/filter_autoComplete_horariotrabalho" />
-
-                    <AutoCompleteTextView
-                        android:id="@+id/filter_autoComplete_horariotrabalho"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto"
-                        android:hint="@string/filter_horarioTrabalho"
-                        android:inputType="none"/>
-
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="10dp"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/filter_modeloContratacao"
-                        android:labelFor="@id/filter_autoComplete_modeloContratacao" />
-
-                    <AutoCompleteTextView
-                        android:id="@+id/filter_autoComplete_modeloContratacao"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto"
-                        android:hint="@string/filter_modeloContratacao"
+                        android:hint="Nome da linguagem"
                         android:inputType="none" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -139,7 +73,7 @@
             </LinearLayout>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ID1_BtnAplicarFiltros_Button"
+                android:id="@+id/filter_BtnAplicarFiltros_Button"
                 android:layout_width="match_parent"
                 android:layout_height="43dp"
                 android:layout_margin="10dp"
